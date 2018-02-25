@@ -1,0 +1,10 @@
+vendor/
+build/
+.DS_Store
+*.pkg
+*.dmg
+*.tar.gz
+*.zip
+
+pkgroot/etc/micromdm/
+pkgroot/usr/local/micromdm

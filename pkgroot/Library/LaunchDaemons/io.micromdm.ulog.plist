@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>io.micromdm.ulog</string>
+        <key>KeepAlive</key>
+        <dict>
+            <key>PathState</key>
+            <dict>
+                <key>/etc/micromdm/ulog/server.json</key>
+                <true/>
+            </dict>
+        </dict>
+        <key>ThrottleInterval</key>
+        <integer>60</integer>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/usr/local/micromdm/bin/ulog</string>
+            <string>client</string>
+        </array>
+        <key>StandardErrorPath</key>
+        <string>/var/log/micromdm/ulog-stderr.log</string>
+        <key>StandardOutPath</key>
+        <string>/var/log/micromdm/ulog-stdout.log</string>
+    </dict>
+</plist>
